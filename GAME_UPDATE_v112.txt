@@ -1,0 +1,17 @@
+OFFROAD WITH ME — V112
+
+Continuation build from V111 DependencyFix. No restart and no unrelated project replacement.
+
+Preserved:
+- Existing game source and gameplay systems
+- 20-level framework
+- Level 1 countryside driving foundation
+- Garage/upgrades and save system
+- Offline/local dependency fallback for Code on the Go
+- Gradle wrapper 8.7 / Android Gradle Plugin 8.6.1 setup
+
+Version code: 112
+Version name: 11.2
+
+Build verification note:
+The project was checked in the available build environment, but the environment does not contain the Gradle 8.7 distribution and external download is unavailable here. Therefore an APK could not be compiled in this run. The project itself remains preserved as the next continuation base.

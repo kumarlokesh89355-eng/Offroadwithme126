@@ -1,0 +1,18 @@
+OFFROAD WITH ME — V116 LARGE PROGRESSION DEPLOYMENT
+
+Base: V115 Large Deployment
+
+Major gameplay/progression batch:
+- Persistent player XP system.
+- Persistent win streak system.
+- Persistent lifetime total driving distance.
+- Finish rewards now scale with streak and star performance.
+- 3-star / 2-star / 1-star completion feeds XP progression.
+- Mission completion grants additional XP.
+- Three consecutive wins grant a larger streak bonus.
+- Failed run resets the active win streak.
+- HUD now shows XP, streak and progression feedback.
+- Level screen now shows XP, streak and lifetime distance.
+- Existing missions, trail tokens, combo rewards, garage, upgrades, Level 1 and 20-level framework preserved.
+
+Build note: APK was not compiled in this environment because the required Android/Gradle toolchain is unavailable locally.

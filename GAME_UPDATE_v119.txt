@@ -1,0 +1,8 @@
+V119 GAMEPLAY DEPLOYMENT
+- Preserved V118 gameplay systems and vehicle expansion.
+- Fixed missing Calendar import required by daily reward logic.
+- Save schema advanced to 119.
+- Level 1 mud section now has visible muddy surface/rut treatment.
+- Level 1 wood bridge section now has visible bridge planks.
+- Finish screen now shows selected vehicle and upgrade levels.
+- No APK compilation claimed; project ZIP only.

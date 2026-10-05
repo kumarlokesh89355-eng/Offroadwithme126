@@ -1,0 +1,9 @@
+OFFROAD WITH ME — V108
+
+Continuation of V107. Game code/assets are preserved.
+Build-system change only: removed all local-maven repository references and the temporary Error Prone exclusion.
+Standard repositories: Google, Maven Central, Gradle Plugin Portal.
+Android Gradle Plugin: 8.6.1
+Gradle wrapper: 8.7
+Version code: 108
+Version name: 10.8

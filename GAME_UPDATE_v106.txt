@@ -1,0 +1,15 @@
+Offroad With Me V106 - Code on the Go project initialization cleanup.
+
+Preserved from V105:
+- Existing game code and Level/garage/gameplay systems
+- Existing assets and launcher icon
+- Gradle 8.7 wrapper
+- Android Gradle Plugin 8.6.1
+- V105 targeted dependency workaround
+
+V106 changes:
+- Root Gradle project name corrected from the stale V104 name to OffroadWithMeV106.
+- app versionCode advanced to 106 and versionName to 10.6.
+- Code on the Go README/version metadata aligned to V106.
+
+No gameplay reset or replacement project was introduced.

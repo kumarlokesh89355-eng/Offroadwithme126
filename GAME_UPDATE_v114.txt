@@ -1,0 +1,13 @@
+OFFROAD WITH ME — V114
+
+Continuation from V113; no restart or replacement of the existing game.
+
+Changes in V114:
+- Added lifecycle-safe progress persistence.
+- Coins, unlocked levels, engine/tires upgrades and best distance are saved when the Activity pauses or saves state.
+- Preserved the existing native driving gameplay, Level 1 trail, vehicle/road visuals, garage, upgrades and 20-level framework.
+- Version code: 114
+- Version name: 11.4
+
+Build note:
+The project remains configured for the existing Code on the Go / Gradle 8.7 setup. An APK was not falsely claimed as built because this environment does not currently contain the Gradle 8.7 distribution and Android SDK needed to compile it.

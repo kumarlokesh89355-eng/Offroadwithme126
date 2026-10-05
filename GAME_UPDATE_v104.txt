@@ -1,0 +1,9 @@
+OFFROAD WITH ME — V104
+
+Targeted Code on the Go dependency repository fix.
+- Keeps the existing game project and gameplay.
+- Adds the local Error Prone annotation artifact under both local-maven and localMvnRepository layouts.
+- Uses settingsDir-based absolute repository locations before remote repositories.
+- Android app version: 104 (10.4).
+
+Important: ZIP structure and artifact presence were checked. APK compilation has not been confirmed in this environment; please import as a NEW project in Code on the Go and check initialization.

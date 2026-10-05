@@ -1,0 +1,9 @@
+OFFROAD WITH ME V120 – LEVEL 1 RECOVERY DEPLOYMENT
+- Continued directly from V119; no project restart.
+- Added two optional Level 1 fuel-can recovery pickups at 320m and 680m.
+- Pickup requires route positioning; each restores up to 18 fuel, gives +3 coins and +1 trail token.
+- Added pickup proximity HUD and pickup reward feedback.
+- Pickup state resets for each new run, so players can collect them again on replay.
+- Save schema advanced to 120.
+- Preserved V119 mud/bridge sections, vehicles, upgrades, XP, streaks, missions, checkpoints, service zones and 20-level framework.
+- APK was not compiled in this environment; this is the updated Android project ZIP.

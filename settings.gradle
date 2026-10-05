@@ -1,0 +1,22 @@
+pluginManagement {
+    repositories {
+        // Local fallback for Code on the Go when a standard artifact is missing.
+        maven { url = uri("$rootDir/local-maven") }
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        // Keep the same local fallback available during project initialization.
+        maven { url = uri("$rootDir/local-maven") }
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = 'OffroadWithMeV118'
+include ':app'

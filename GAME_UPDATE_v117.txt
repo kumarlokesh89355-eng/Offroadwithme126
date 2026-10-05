@@ -1,0 +1,12 @@
+Offroad With Me V117 — Vehicle Expansion Deployment
+
+Continued from V116. This deployment adds a real three-vehicle garage layer:
+- Trailer 4x4: free balanced starter vehicle.
+- Ranger X: unlocks at 500 XP; faster but consumes more fuel and has slightly less wet/mud traction.
+- Mudmaster: unlocks after a 3-win streak; lower top speed but stronger grip.
+- Selected vehicle is persisted in SharedPreferences.
+- Garage now shows vehicle role, unlock conditions, engine and tire upgrade levels, and player resources.
+- Vehicle selection affects speed, traction and fuel consumption during gameplay.
+- Existing missions, tokens, combo, XP, streak, Level 1 hazards, 20-level framework and save system are preserved.
+- VersionCode 117 / VersionName 11.7.
+Build not performed in this environment because the required Android SDK/Gradle distribution is unavailable.

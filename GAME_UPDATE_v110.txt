@@ -1,0 +1,7 @@
+OFFROAD WITH ME — V110
+Code on the Go initialization-focused build.
+
+Base: V109. Game source/assets preserved.
+Changes: simplified settings.gradle, removed unnecessary dependency-resolution repository configuration, disabled Gradle daemon/parallel configuration for more predictable Android IDE initialization, and bumped versionCode to 110.
+
+No game restart and no external game assets added.

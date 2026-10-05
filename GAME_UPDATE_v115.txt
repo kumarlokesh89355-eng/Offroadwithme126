@@ -1,0 +1,16 @@
+Offroad With Me — V115 Large Deployment
+
+This is a substantial continuation from V114, not a version-number-only change.
+
+Major gameplay deployment:
+- Added per-level mission system with three rotating objectives.
+- Added persistent Trail Token collection and run token tracking.
+- Added checkpoint combo system and increased checkpoint rewards.
+- Added additional varied hazards for levels beyond Level 1.
+- Added daily +25 coin reward with date-based claim protection.
+- Added mission completion bonus (+40 coins).
+- Added mission/token/combo HUD feedback.
+- Preserved Level 1, garage, upgrades, 20-level framework, save system, visuals and controls.
+- Preserved Code on the Go / Gradle 8.7 project configuration.
+
+Build note: APK compilation was not performed in this environment because the required Gradle 8.7 distribution and Android SDK platform are not locally available.

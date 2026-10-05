@@ -1,0 +1,11 @@
+OFFROAD WITH ME V122 – REALISTIC VISUAL DEPLOYMENT
+
+- Continued directly from V121; no restart.
+- Added layered sky gradient and atmospheric horizon depth.
+- Added distant snow/rock highlight silhouettes on selected mountain-heavy levels.
+- Added stronger Level 1 bridge rail/wood landmark treatment around the 600–700m section.
+- Added richer Level 1 mud/rut visual feedback and moving mud splash particles while driving through the mud section.
+- Added subtle cinematic vignette to keep the trail and vehicle readable on mobile screens.
+- Updated Android versionCode to 122 and versionName to 12.2.
+- Preserved V121 fuel cans, repair kits, missions, XP, streaks, vehicles, upgrades, checkpoints, service zones and save system.
+- APK not compiled in this environment; this is the updated Android project ZIP.

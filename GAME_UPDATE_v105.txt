@@ -1,0 +1,3 @@
+Offroad With Me V105 - targeted Gradle dependency fix.
+
+Changed the Android Gradle Plugin buildscript dependency to exclude the missing com.google.errorprone:error_prone_annotations artifact that Code on the Go reports while initializing the project. Game code and assets are otherwise preserved from V104.

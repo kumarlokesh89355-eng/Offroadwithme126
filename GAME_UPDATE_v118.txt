@@ -1,0 +1,20 @@
+OFFROAD WITH ME — V118 LARGE GAMEPLAY DEPLOYMENT
+
+Base: V117 Vehicle Expansion (preserved, not restarted)
+VersionCode: 118
+VersionName: 11.8
+
+Major gameplay deployment:
+- Added Level 1 visible MUD SECTION with matching slower/less-traction handling.
+- Added Level 1 WOOD BRIDGE SECTION with a distinct landmark and handling change.
+- Added FINAL CLIMB guidance near the finish.
+- Added checkpoint service at 500m and 750m: small automatic repair + fuel top-up.
+- Added clear TRAIL SERVICE HUD feedback.
+- Added vehicle + engine/tire upgrade status to gameplay HUD.
+- Expanded level-complete results with fuel and XP reward details.
+- Garage now shows upgrade level bars.
+- Added save schema marker and vehicle-unlock validation so locked vehicles cannot remain selected after a data reset/migration.
+- Preserved V117 vehicles, XP, streaks, missions, tokens, coins, garage, 20-level framework, Level 1 obstacles, WebView assets and lifecycle saving.
+
+Build note:
+- ZIP/project validation only. APK compilation is not claimed because the required Android SDK/Gradle distribution is not available in this environment.

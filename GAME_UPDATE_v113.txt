@@ -1,0 +1,8 @@
+OFFROAD WITH ME — V113
+
+Continuation from V112. No reset/rewrite of the game.
+- Preserved existing Android/WebView game, 20-level framework, Level 1 countryside gameplay, SUV rendering, garage/upgrades, save data and audio/visibility stability fixes.
+- Incremented Android versionCode to 113 and versionName to 11.3.
+- Kept Gradle wrapper configuration at Gradle 8.7 and Android Gradle Plugin 8.6.1 for Code on the Go compatibility.
+- Kept local Maven fallback repository used by the previous dependency-fix versions.
+- Build was not performed in this environment because the Gradle 8.7 distribution is not installed locally and external downloads are unavailable.

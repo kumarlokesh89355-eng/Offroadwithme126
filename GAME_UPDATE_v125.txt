@@ -1,0 +1,8 @@
+OFFROAD WITH ME — V125
+Consolidated visual + driving deployment
+- Visible Level 1 fuel and repair pickups in the 3D route view
+- Section banners for mud and wooden bridge sections
+- Additional suspension/body movement cue
+- Existing V123/V122/V121 progression, vehicles, missions, fuel, repair and checkpoints preserved
+- Android versionCode 125 / versionName 12.5
+- Save schema 125

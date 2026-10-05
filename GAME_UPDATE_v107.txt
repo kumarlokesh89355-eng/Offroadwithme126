@@ -1,0 +1,11 @@
+OFFROAD WITH ME V107 - PROJECT INITIALIZATION FIX
+
+Continuation of V106. No game source/assets removed.
+
+Build-system changes:
+- Removed duplicate localMvnRepository.
+- Kept one deterministic local-maven repository.
+- Removed root allprojects repository declarations that conflicted with settings repository management.
+- Changed repository mode to PREFER_SETTINGS for Code on the Go compatibility.
+- Kept Gradle wrapper 8.7 and Android Gradle Plugin 8.6.1.
+- Version code 107 / version name 10.7.

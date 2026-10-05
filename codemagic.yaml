@@ -1,0 +1,18 @@
+workflows:
+  android-native-debug:
+    name: Offroad With Me - Android Test APK
+    max_build_duration: 120
+    instance_type: mac_mini_m2
+    scripts:
+      - name: Set Android SDK location
+        script: echo "sdk.dir=$ANDROID_SDK_ROOT" > "$CM_BUILD_DIR/local.properties"
+      - name: Build Android debug APK with Gradle 8.7
+        script: |
+          set -e
+          GRADLE_VERSION=8.7
+          curl -fsSL "https://services.gradle.org/distributions/gradle-${GRADLE_VERSION}-bin.zip" -o /tmp/gradle.zip
+          rm -rf /tmp/gradle-${GRADLE_VERSION}
+          unzip -q /tmp/gradle.zip -d /tmp
+          /tmp/gradle-${GRADLE_VERSION}/bin/gradle --no-daemon --stacktrace assembleDebug
+    artifacts:
+      - app/build/outputs/**/*.apk

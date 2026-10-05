@@ -1,0 +1,13 @@
+OFFROAD WITH ME — V111
+Code on the Go dependency-resolution fix.
+
+Base: V110. Game source/assets preserved.
+Fix: restored the deterministic local Maven fallback containing
+com.google.errorprone:error_prone_annotations:2.18.0, which is the exact
+artifact shown as missing in the Code on the Go IDE logs.
+The fallback is registered for both plugin management and dependency
+resolution so project initialization can resolve the artifact without
+relying on a remote download.
+Gradle wrapper remains 8.7 and Android Gradle Plugin remains 8.6.1.
+Version code: 111. Version name: 11.1.
+No game restart and no external game assets added.

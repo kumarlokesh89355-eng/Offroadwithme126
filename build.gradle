@@ -1,0 +1,28 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.offroadwithme.game'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.offroadwithme.game'
+        minSdk 23
+        targetSdk 35
+        versionCode 125
+        versionName '12.5'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            shrinkResources false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}

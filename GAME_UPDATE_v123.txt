@@ -1,0 +1,6 @@
+OFFROAD WITH ME V123
+Driving Feel Deployment
+- Stronger front-wheel steering visual response
+- Night stages receive soft headlight beam treatment
+- Existing V122 realistic visual, recovery, repair, vehicle, mission, XP and progression systems preserved
+- Android versionCode 123 / versionName 12.3
